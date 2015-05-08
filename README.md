@@ -11,7 +11,9 @@ Implement the algorithm described in http://arxiv.org/pdf/1412.2197.pdf
 3) Generate Training data: 
 Synonym with label 1, Antonym/Irrelevant with label -1. For each pair of words, feature is of 
 250d, a concatenation of x1, x2, x1*x2, |x1-x2|, x1+x2
+
 4) Split data to Train/Test , 33% training data and 67% test data
+
 5) Run three classifiers on the data: svm, neural network, deep neural network.
 
 
@@ -19,8 +21,11 @@ Synonym with label 1, Antonym/Irrelevant with label -1. For each pair of words, 
 1) SVM: with C=1.0
 
 2) Multilayer Perceptron: 
+
   Input Layer: 250
+
   Hidden Layer 100, with tanh activation
+
   Ouput Layer 1
 
 3) Deep MLP:
