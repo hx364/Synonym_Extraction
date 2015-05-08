@@ -1,0 +1,25 @@
+Metrics on model: 'SVM'
+Accuracy : 0.82919435267332364
+Precision: 0.60736171255821558
+Recall   : 0.78001049317943338
+F1 Score : 0.68294363544489867
+Confusion Matrix: array([[52146,  9611],
+       [ 4193, 14867]])
+
+
+Metrics on model: 'MLP'
+Accuracy : 0.85769083237437671
+Precision: 0.7016055902277698
+Recall   : 0.69008394543546692
+F1 Score : 0.69579707461581186
+Confusion Matrix: array([[56163,  5594],
+       [ 5907, 13153]])
+
+
+Metrics on model: Deep MLP
+Accuracy : 0.85255577415642747
+Precision: 0.7047226043099496
+Recall   : 0.64512067156348374
+F1 Score : 0.67360578503341739
+Confusion Matrix: array([[56605,  5152],
+       [ 6764, 12296]])
